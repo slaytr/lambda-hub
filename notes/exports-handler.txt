@@ -1,0 +1,23 @@
+Callbacks | Promises | Async Await
+
+Callback functions are derived from a programming paradigm known as functional programming
+At a fundamental level, functional programming specifies the use of functions as arguments.
+
+When you configure a function the value of the handler setting is the file name and the
+name of the exported handler module separated by a dot.
+eg. put.js -> put.handler
+
+The runtime passes three arguments to the handler method
+The first argument is the           event object
+The second argument is the          context object
+The third argument is the           callback (non-async functions to send a response)
+
+Sync Example:
+exports.handler = (event, context, callback) => {
+    callback('hello')
+}
+
+Async Example:
+exports.handler = async (event, context) => {
+    return promise // response, error, or promise
+}

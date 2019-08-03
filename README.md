@@ -1,4 +1,6 @@
-<img src="assets/lambda-hub.png"/>
+<div style="text-align: center;"">
+  <img src="assets/lambda-hub.png" />
+</div>
 
 ## A personal collection
 
@@ -20,9 +22,9 @@ const documentClient = new AWS.DynamoDB.DocumentClient({region: 'ap-southeast-2'
 
 // Parameters to put
 var params = {
-  TableName: 'DynamoExample',   // Table Name in DynamoDB (Required - Key)
-  Item: {                       // Item in that Table (Required - Key)
-    Data: 4,
+  TableName: 'DynamoExample',   // Table Name in DynamoDB (Required Key of Params)  Fixed Name
+  Item: {                       // Item in that Table (Required Key of Params)      Fixed Name
+    Data: 4,                    // Primary Key of Item (Required Key of Item)
     message: "Test"
   },
 }
