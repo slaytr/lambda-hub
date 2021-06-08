@@ -1,8 +1,11 @@
 <div style="text-align: center;"">
-  <img src="assets/lambda-hub.png" />
+  <img src="assets/aws-lambda.svg" />
 </div>
 
-## A personal collection
+## Repository for Learning Artifacts
+
+This repository contains small scripts or programs used to interact with AWS services, mainly dealing with AWS lambda related services.
+
 
 #### Last update: 03-08-2019
 
