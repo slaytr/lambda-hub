@@ -1,5 +1,5 @@
-<div style="text-align: center;"">
-  <img src="assets/aws-lambda.svg" />
+<div style="text-align: center;">
+  <img style="max-width: 400px; max-height: 400px;" src="assets/aws-lambda.svg" />
 </div>
 
 ## Repository for Learning Artifacts
